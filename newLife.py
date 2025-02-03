@@ -239,7 +239,7 @@ while running:
                     screen.blit(health_text, (mouse_x, mouse_y))
 
         pygame.display.flip()
-        clock.tick(1)
+        clock.tick(10)
         cycle += 1
 
 # Завершение Pygame
